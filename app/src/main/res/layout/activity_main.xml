@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/darker_gray">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/einnahmen"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:text="@string/einnahmen" />
+
+        <Button
+            android:id="@+id/ausgaben"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:text="@string/ausgaben" />
+
+        <Button
+            android:id="@+id/uebersicht"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:text="@string/uebersicht" />"
+
+        <Button
+            android:id="@+id/neue_position"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:text="@string/neue_position" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/action_settings"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:text="@string/action_settings"/>
+
+    </GridLayout>
+
+</LinearLayout>
